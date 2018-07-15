@@ -1,0 +1,20 @@
+{
+    "name": "kimbee-team/dotenv-dump",
+    "description": "Dumps environment variables from `.env` to `.htaccess` or plain PHP-file.",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^5.5.9|>=7.0.8",
+        "symfony/framework-bundle":  "~3.4|~4.0",
+        "symfony/dotenv": "~3.4|~4.0"
+    },
+    "autoload": {
+        "psr-4": { "KimbeeTeam\\DotenvDump\\": "" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wait"
+        }
+    ],
+    "version": "1.0.0"
+}
